@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jared Blecher</title>
+        <link rel="stylesheet" href="design_home.css">
+        <script src="script.js" defer ></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </head>
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hello">HELLO</a></li>
+                <li><a href="#resume">RESUME</a></li>
+                <li><a href="#skills">GENERAL SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+
+         <!--Header of page contains headshot and personal details . -->
+         <section id="head">
+            <div class="header" >
+                <img class="pic" src="images/Jared.jpeg" alt="personal pic image here">
+                <!--header- Jared Blecher. -->
+                <div><h1 class="head">Jared Blecher</h1></div>
+                <!--age box. -->
+                <div class="detail"> 
+                    <div class ="detail_age" id="detail_desc"><p>AGE:</p></div>
+                    <div class="detail_age" id="detail"><p>27</p></div>
+                </div>
+                <!--Phone box. -->
+                <div class="detail">
+                    <div class="detail_phone" id="detail_desc"> <p>PHONE:</p></div>
+                    <div class="detail_phone" id="detail"> <p>054-7871836</p></div>
+                </div>
+                <!--Email box. -->
+                <div class="detail">
+                    <div class="detail_email" id="detail_desc"> <p>EMAIL:</p></div>
+                    <div class="detail_email" id="detail"> <p>jpblecher@gmail.com</p></div>
+                </div>
+                <!--Address box. -->
+                <div class="detail">
+                    <div class="detail_address" id="detail_desc"> <p>ADDRESS:</p></div>
+                    <div class="detail_address" id="detail"> <p>Tel Aviv, Israel</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!--opening sentence with cv download button. -->
+        <section id="hello">
+            
+            <div class="desc">
+                <div class="self_desc"><h2>Hi_</h2></div>
+                <div ><p class="self_desc">I made Aliyah from South African 7 years ago. I'm currently a second year Computer Science & Entr student at The Reichman University. Before which, I worked 2.5 years as a Field Manager in a tourism company, where I gained experience managing teams and expreince many diffrent areas. </p></div>
+                <div class="button_cv">
+                        <button class="button-17" role="button"><a class="button_cvjb" href="pdfs/CV_JaredBlecher.pdf" download><p class="cv_button">DOWNLOAD CV</p> </a></button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--Resume section . -->
+        <section id="resume">
+            <div class="resume_div">
+                <div ><h2 class="resume_header">Resume_</h2></div>
+                <div ><h3 class="resume_line">EDUCATION</h3></div>
+                <div class="resume_description">
+                    <div class="bullet">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="bullet">
+                        <div class="bullet_header">RIECHMAN UNIVERSITY</div>
+                        <div class="bullet_dates">2020 - PRESENT</div>
+                        <div class="bullet_desc">Bsc Computer Science & Entreprenuership.</div>
+                    </div>
+                </div>
+
+                <div class="resume_description">
+                    <div class="bullet">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="bullet">
+                        <div class="bullet_header">BAR ILAN UNIVERSITY</div>
+                        <div class="bullet_dates">2019</div>
+                        <div class="bullet_desc">Mechina Kdem Akedmi.</div>
+                    </div>
+                </div>
+
+                <div class="resume_line"><h3>EMPLOYMENT</h3></div>
+                <div class="resume_description">
+                    <div class="bullet">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="bullet">
+                        <div class="bullet_header">STUDENT JOB</div>
+                        <div class="bullet_dates">2019 - PRESENT</div>
+                        <div class="bullet_desc">Further details upon request.</div>
+                    </div>
+                </div>
+
+                <div class="resume_description">
+                    <div class="bullet">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="bullet">
+                        <div class="bullet_header">SACHLAV</div>
+                        <div class="bullet_dates">2017 - 2019</div>
+                        <div class="bullet_desc">Manager of the field department at Sachlav. A tourism company, which specializes in Taglit, Masa and private trips. Responsibilities included  creating and managing, relationship with suppliers in Israel and overseas, work procedures and budgets, Logistical and Safety supervision of projects, events and groups in the field.</div>
+                    </div>
+                </div>
+
+                <div class="resume_line"><h3>HOBBIES</h3></div>
+                <div class="resume_description">
+                    <div class="bullet">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="bullet">
+                        <div class="bullet_header">SPORT & ART</div>
+                        <div class="bullet_desc">I enjoy almost anything outside such as running, soccer and wakeboarding, when indoors I like to do pottery, painting and eating out.</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!--Progress bar section. Made up of progress bar, title and percentage -->
+        <section id="skills">
+            
+        <div class="resume_line"><h3>GENERAL SKILLS</h3></div>
+        <div class="side_by_side">
+            <div class="resume_line">
+                <div class="percent">70%</div>
+                <div ><h3>JAVA</h3></div>
+                <div class="progress_bar" style="--width: 5; --maxwidth: 70" ></div> 
+            </div>
+            <div class="resume_line">
+                <div class="percent">50%</div>
+                <div><h3>PYTHON</h3></div>
+                <div class="progress_bar" style="--width: 5; --maxwidth: 50" ></div>
+            </div>
+        </div>
+        
+        <div class="side_by_side">
+            <div class="resume_line">
+                <div class="percent">30%</div>
+                <div ><h3>C</h3></div>
+                <div class="progress_bar" style="--width: 5; --maxwidth: 30" ></div>
+            </div>
+            <div class="resume_line">
+                <div class="percent">40%</div>
+                <div><h3>JAVASCRIPT</h3></div>
+                <div class="progress_bar" style="--width: 5; --maxwidth: 40" ></div>
+            </div>
+        </div>
+
+        <div class="side_by_side">
+            <div class="resume_line">
+                <div class="percent">50%</div>
+                <div><h3>HTML</h3></div>
+                <div class="progress_bar" style="--width: 5; --maxwidth: 50" ></div>
+            </div>
+            
+            <div class="resume_line">
+                <div class="percent">50%</div>
+                <div><h3>CSS</h3></div>
+                <div class="progress_bar" style="--width: 5; --maxwidth: 50" ></div>
+            </div>
+        </div>
+        </section>
+
+        <section id="contact">
+            
+            <div class="contact_block">
+                <div>
+                    <div class="contact_details"><h2 >Get in touch_</h2></div>
+                    <div class="contact_details">
+                        <div class="contact_details_name">
+                            <h3>PHONE:</h3> 
+                            <h3>EMAIL:</h3>
+                        </div>
+                        <div>
+                            <h3>054-7871836</h3> 
+                            <h3>jpblecher@gmail.com</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h3 class="contact_head">Or just write me a letter here_</h3>
+                    <input type="text" id="name" placeholder="Your name" required>
+                    <input type="email" id="email" placeholder="Your e-mail" required>
+                    <input id="message" placeholder="Type the message here" row="4" required>
+                    <button type="submit">SEND</button>
+                  </form>
+            </div>
+          
+        </section>
+    </div>
+</body>
+    </html
